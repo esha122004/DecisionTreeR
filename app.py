@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 
-my_dtr = pickle.load(open("esha_mahyawanshi.pkl","rb"))
+my_dtr = pickle.load(open("EshaMahyawanshi","rb"))
 
 def predict(data):
     return my_dtr.predict(data)
